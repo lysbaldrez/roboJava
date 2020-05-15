@@ -23,25 +23,7 @@ public class robo {
 	    System.out.printf("Informe a 1º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
 	    direcao1 = ler.next();
 	    
-	    
-	    
-//	    System.out.printf("Informe a 2º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
-//	    direcao2 = ler.next();
-//	    
-//	    System.out.printf("Informe a distance, em cm, que o robô andará na 2ª direção \n");
-//	    distancia2 = ler.nextInt();
-//	    System.out.printf("Informe a 3º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
-//	    direcao3 = ler.next();
-//	    System.out.printf("Informe a distância, em cm, que o robô andará na 3ª direção \n");
-//	    distancia3 = ler.nextInt();
-//	    System.out.printf("Informe a 4º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
-//	    direcao4 = ler.next();
-//	    System.out.printf("Informe a distância, em cm, que o robô andará na 4ª direção \n");
-//	    distancia4 = ler.nextInt();
-//	    System.out.printf("Informe a 5º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
-//	    direcao5 = ler.next();
-//	    System.out.printf("Informe a distância, em cm, que o robô andará na 5ª direção \n");
-//	    distancia5 = ler.nextInt();
+	    if(carga1 <= 33) {
 	    if (direcao1.equals("DIREITA")) {
 		    System.out.printf("Informe a distance, em cm, que o robô andará na 1ª direção \n");
 		    distancia1 = ler.nextInt();
@@ -93,8 +75,7 @@ public class robo {
 	    		}
 	    	}
 	    }	 
-	    System.out.println("fim");
-	    
-	       
+	}
+	System.out.println("Fim");
 	}	
 }
