@@ -27,7 +27,7 @@ public class robo {
 	    if (direcao1.equals("DIREITA")) {
 		    System.out.printf("Informe a distance, em cm, que o robô andará na 1ª direção \n");
 		    distancia1 = ler.nextInt();
-	    	if (distancia1 >=3 || distancia1 <=5) { // PRIMEIRO MOVIMENTO Horizontal
+	    	if (distancia1 >=3 && distancia1 <=5) { // PRIMEIRO MOVIMENTO Horizontal
 	    	    System.out.printf("Informe a 2º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
 	    	    direcao2 = ler.next();
 	    	    sobraHorizontal1 = horizontal1 - distancia1;
@@ -36,7 +36,7 @@ public class robo {
 	    			System.out.printf("Informe a distance, em cm, que o robô andará na 2ª direção \n");
 	    			distancia2 = ler.nextInt();
 	    			
-	    			if (distancia2 >=7 || distancia2 <=9) {
+	    			if (distancia2 >=7 && distancia2 <=9) {
 		    			System.out.printf("Informe a 3º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
 	   					direcao3 = ler.next();
 	    				sobraVertical = vertical1 - distancia2;
