@@ -23,7 +23,7 @@ public class robo {
 	    System.out.printf("Informe a 1º direção em que o robô andará (FRENTE, TRÁS, ESQUERDA, DIREITA) \n");
 	    direcao1 = ler.next();
 	    
-	    if(carga1 <= 33) {
+	    if(carga1 >= 33) {
 	    if (direcao1.equals("DIREITA")) {
 		    System.out.printf("Informe a distance, em cm, que o robô andará na 1ª direção \n");
 		    distancia1 = ler.nextInt();
@@ -66,16 +66,35 @@ public class robo {
     										if ((sobraHorizontal1 - sobraHorizontal2) == (distancia5 - horizontal3) || (sobraHorizontal2 - sobraHorizontal1) == (distancia5 - horizontal3)) {
 												System.out.println("PARABÉNS!!! Você ganhou o prémio!");
 											}
+	    								} else {
+	    									System.out.println("Finalizado, ele não ganhou o prêmio");
 	    								}
-	    							}
-	    						}
-	    					}
-	    				}
-	    			}
-	    		}
-	    	}
-	    }	 
-	}
-	System.out.println("Fim");
+	    							} else {
+    									System.out.println("Finalizado, ele não ganhou o prêmio");
+    								}
+	    						} else {
+									System.out.println("Finalizado, ele não ganhou o prêmio");
+								}
+	    					} else {
+								System.out.println("Finalizado, ele não ganhou o prêmio");
+							}
+	    				} else {
+							System.out.println("Finalizado, ele não ganhou o prêmio");
+						}
+	    			} else {
+						System.out.println("Finalizado, ele não ganhou o prêmio");
+					}
+	    		} else {
+					System.out.println("Finalizado, ele não ganhou o prêmio");
+				}
+	    	} else {
+				System.out.println("Finalizado, ele não ganhou o prêmio");
+			}
+	    } else {
+			System.out.println("Finalizado, ele não ganhou o prêmio");
+		}
+	    }
+	    System.out.println("Fim");
+	
 	}	
 }
